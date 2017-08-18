@@ -21,8 +21,8 @@
 #' }
 #'
 #' @examples
-#' data('HumanSerum')
-#' PCA.res = SVDforPCA(HumanSerumSpectra)
+#' data('iris')
+#' PCA.res = SVDforPCA(iris[,1:4])
 
 
 SVDforPCA <- function(x, ncomp = min(dim(x))) {

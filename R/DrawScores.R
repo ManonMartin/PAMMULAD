@@ -26,12 +26,12 @@
 #'
 #' @examples
 #'
-#' data('HumanSerum')
-#' res.PCA = SVDforPCA(HumanSerumSpectra)
-#' class = ClassHS
+#' data('iris')
+#' PCA.res = SVDforPCA(iris[,1:4])
+#' class = iris[,5]
 #'
-#' DrawScores(res.PCA, drawNames=TRUE, type.obj = 'PCA',
-#' createWindow=FALSE, main = 'PCA score plot for HumanSerum dataset',
+#' DrawScores(PCA.res, drawNames=TRUE, type.obj = 'PCA',
+#' createWindow=FALSE, main = 'PCA score plot for Iris dataset',
 #'   color = class, axes =c(1,2))
 #'
 #'

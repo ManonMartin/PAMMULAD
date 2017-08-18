@@ -24,11 +24,11 @@
 #'
 #' @examples
 #'
-#' data('HumanSerum')
-#' res.PCA = SVDforPCA(HumanSerumSpectra)
+#' data('iris')
+#' PCA.res = SVDforPCA(iris[,1:4])
 #'
-#' DrawLoadings(res.PCA, type.obj = 'PCA',
-#' createWindow = FALSE, main = 'PCA loadings plot for HumanSerum dataset',
+#' DrawLoadings(PCA.res, type.obj = 'PCA',
+#' createWindow = FALSE, main = 'PCA loadings plot for Iris dataset',
 #'    axes = 1,  loadingstype='l', xlab = "L1")
 #'
 #' @importFrom grDevices dev.new

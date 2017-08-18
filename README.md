@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ManonMartin/MBXUCL.svg?branch=master)](https://travis-ci.org/ManonMartin/MBXUCL)
+[![Build Status](https://travis-ci.org/ManonMartin/PAMMULAD.svg?branch=master)](https://travis-ci.org/ManonMartin/PAMMULAD)
 
 # PAMMULAD
 Parallel modelling of multivariate designs
